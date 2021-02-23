@@ -41,3 +41,11 @@ Score: 187,346,337 points
 * C – Many ingredients - 178,548,457 points
 * D – Many pizzas - 1,567,245 points
 * E – Many teams - 7,218,284 points
+
+## main4.cpp
+
+### Algorithm
+
+### Score
+
+* C – Many ingredients - 712,890,496 points
