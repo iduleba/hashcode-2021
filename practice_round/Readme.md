@@ -4,11 +4,11 @@
 
 ## Final Score
 
-Score: 553,802,214 points
+Score: 725,152,051 points
 
 * A – Example - 74 points
-* B – A little bit of everything - 11,963 points
-* C – Many ingredients - 534,743,460 points
+* B – A little bit of everything - 12,302 points
+* C – Many ingredients - 706,092,958 points
 * D – Many pizzas - 8,060,057 points
 * E – Many teams - 10,986,660 points
 
