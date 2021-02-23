@@ -3,7 +3,7 @@
 - [competition link](https://hashcodejudge.withgoogle.com/#/home)
 - [faq](https://codingcompetitions.withgoogle.com/hashcode/faq)
 
-## Team SushiMaroto: 🍕
+## Team SushiMaroto: 🍣
 
 | Name                | Github                                        |
 | :------------------ | :-------------------------------------------- |
