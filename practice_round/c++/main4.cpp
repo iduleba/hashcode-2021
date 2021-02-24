@@ -66,7 +66,7 @@ float heuristic(vector<ll> &s1, vector<ll> &s2, float &alpha){
 }
 
 int main(int agrc, char **argv){
-    float alpha = atof(argv[1]); // alpha=0.752409
+    float alpha = atof(argv[1]); // c.in -> alpha=0.7615489999999999
     ll M, T2, T3, T4;
     cin >> M >> T2 >> T3 >> T4;
     
@@ -89,9 +89,9 @@ int main(int agrc, char **argv){
         pizzas.push_back(p);
     }
 
-    // sort(pizzas.begin(), pizzas.end(), [](const Pizza& p1, const Pizza& p2){
-    //     return p1.ingredients.size() < p2.ingredients.size();
-    // });
+    sort(pizzas.begin(), pizzas.end(), [](const Pizza& p1, const Pizza& p2){
+        return p1.ingredients.size() < p2.ingredients.size();
+    });
 
     vector<Group> groups;
     for(ll i=0; i<T2; ++i){groups.push_back(Group(2));}
@@ -104,7 +104,7 @@ int main(int agrc, char **argv){
 
     while(g>0){
         ll pizza_index = -1, m_g = 0;
-        for(lui i=0; i<pizzas.size(); ++i){
+        for(lui i=pizzas.size()-1; i>0; --i){
             if(pizzas_used.count(i)!=0){
                 continue;
             }
@@ -134,6 +134,9 @@ int main(int agrc, char **argv){
     for(lui i=0; i<groups.size(); ++i){
         if(groups[i].pizzas.size()==groups[i].size){
             aux++;
+        }
+        else{
+            assert(false);
         }
     }
     cout << aux << "\n";

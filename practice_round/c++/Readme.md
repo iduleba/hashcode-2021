@@ -48,4 +48,4 @@ Score: 187,346,337 points
 
 ### Score
 
-* C – Many ingredients - 712,890,496 points
+* C – Many ingredients - 713,323,207 points
